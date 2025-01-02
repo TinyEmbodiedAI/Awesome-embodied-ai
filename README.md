@@ -79,8 +79,13 @@ Embodied AI represents a paradigm shift in artificial intelligence research, emp
 - [GAZEBO](gazebosim.org/) -Gazebo是目前最广泛使用的仿真环境，最早在2004年由USC Robotics Research Lab (南加州大学机器人实验室) 开发。依托于ROS的发展，Gazebo具有很强的仿真能力，同时也在机器人研究和开发中得到了广泛应用。Gazebo的功能包括：动力学仿真、传感器仿真、三维环境仿真，同时支持多种机器人模型：包括PR2、Turtlebot、AR.Drone等。
 
 ### Development Frameworks  
-- [Framework Name](link) - Description  
-- [Framework Name](link) - Description  
+- [Embodied Multi-Modal Agent trained by an LLM from a Parallel TextWorld](https://arxiv.org/pdf/2311.16714) - 南科大史玉回团队提出新的具身智能体训练框架  
+- [具身大模型框架ViLa+CoPa](https://zhuanlan.zhihu.com/p/691623973) - Description
+- [o1-preview评估框架](https://www.showapi.com/news/article/6736a9a14ddd79f11a14afa4)
+- [端到端AI控制系统](https://blog.csdn.net/weixin_48649532/article/details/144049952)
+- [自主无人系统的具身认知智能框架](http://www.ral.neu.edu.cn/_upload/article/files/80/b8/9564432f44129cca25bc957f6c55/86e6a726-b988-4893-967f-2bf1b71a89e1.pdf)
+- [Psi R0-端到端具身模型](https://ai-bot.cn/psi-r0/)
+- [ARTNR：具身多智能体任务中规划与推理的基准测试框架](https://www.51cto.com/article/801682.html)(paper:https://scontent-hkg1-2.xx.fbcdn.net/v/t39.2365-6/464851531_1221845409090666_2252263696901529721_n.pdf?_nc_cat=103&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=57t4MekU5d8Q7kNvgGHZLDc&_nc_zt=14&_nc_ht=scontent-hkg1-2.xx&_nc_gid=AP84iiMP4yT2dx7Jh70Nn1B&oh=00_AYCJYRFwktQj-PkAyejTL3iLCYkkmeeSDEVzOobWNlX7MQ&oe=677BDD0B)
 
 ### Libraries  
 - [Library Name](link) - Description  
@@ -97,6 +102,16 @@ Embodied AI represents a paradigm shift in artificial intelligence research, emp
 - [MFE-ETP](https://www.selectdataset.com/dataset/f87c1a88da43c4cb9e8d487f66fa8c56) - 发布时间：2024-07-06 数据集内容：MFE-ETP数据集由天津大学智能与计算学部创建，是一个针对具身任务规划的多模态基础模型综合评估基准。该数据集包含1184个高质量测试案例，覆盖100个具身任务，涉及对象理解、时空感知、任务理解和具身推理等多个能力维度。数据集的创建过程结合了从BEHAVIOR-100和VirtualHome平台收集的典型家庭任务数据，并通过人工标注和设计任务指令进行精细化处理。MFE-ETP数据集主要应用于提升多模态基础模型在具身人工智能领域的任务规划能力，旨在解决模型在复杂任务场景中的性能瓶颈问题。
 - [RoomTour3D](https://www.selectdataset.com/dataset/108f249504b0df9611312f43fb8ac591) - 发布时间：2024-06-27 数据集内容：RoomTour3D是一个几何感知视频指令数据集，用于具身导航。该数据集包含1847个房间游览场景的几何感知视频指令数据，以及使用COLMAP进行的三维场景重建、相对深度估计、开放世界对象标签和定位等中间产品。数据集的组织结构包括colmap_reconstruction、ram_grounding_p1、relative_depth_estimation和trajectories等部分，每个部分都有详细的文件结构和内容描述。此外，数据集还提供了视频下载链接和版权声明，确保用户在使用时的合规性。
 - [EmbSpatial-Bench](https://www.selectdataset.com/dataset/12271ef1d372b6fd9b146548895a82e6) - 发布时间：2024-06-23 数据集内容：EmbSpatial-Bench 是一个用于评估语言视觉模型（LVLM）在具身场景中空间理解能力的基准测试，包含3640个问答对，涵盖294个物体类别和6种空间关系。EmbSpatial-SFT 是一个指令调优数据集，提供用于空间关系识别和物体定位的两个任务的问答数据，基于 MP3D 的训练场景构建。
+- [Roboturk](https://opendatalab.org.cn/OpenDataLab/Roboturk/tree/main) - RoboTurk 真实机器人数据集收集了有关三个不同现实世界任务的大型数据集：洗衣房布局、塔楼创建和对象搜索。 所有三个数据集都是使用 RoboTurk 平台收集的，由众包工作人员远程收集。 我们的数据集包含来自 54 个不同用户的 2144 个不同演示。 我们提供用于训练的完整数据集和用于探索的数据集的较小子样本。
+- [Mini-BEHAVIOR](https://github.com/StanfordVL/mini_behavior) - Mini-BEHAVIOR是一个专为具身AI设计的基准数据集，由斯坦福大学创建。该数据集包含20个模拟家庭任务，旨在评估和训练AI代理在复杂环境中的决策和规划能力。数据集通过程序生成技术创建了无限的任务变体，支持开放式学习。Mini-BEHAVIOR简化了原始BEHAVIOR基准的复杂性，同时保留了任务层面的决策挑战，适用于快速原型设计和训练，是具身AI领域研究和开发的重要工具。
+- [BridgeData V2](https://rail-berkeley.github.io/bridgedata/) - BridgeData V2是由加州大学伯克利分校和斯坦福大学等机构合作创建的大型机器人操作行为数据集，包含60,096个轨迹，覆盖24个环境。数据集设计用于支持大规模机器人学习研究，涵盖广泛的技能和环境变量，支持通过目标图像或自然语言指令进行任务调节。创建过程中，数据集通过人工操作和自主收集相结合的方式，确保了数据的多源性和多样性。该数据集适用于多种机器人学习方法，旨在解决机器人技能在不同环境和任务中的泛化问题，推动机器人学习领域的研究进展。\
+- [G1数据集-人形机器人操作](https://github.com/unitreerobotics/avp_teleoperate) - 宇树科技公布了开源 G1 人形机器人操作数据集，用以训练人形机器人，适配多种开源方案。宇树 G1 人形机器人操作数据集具有以下特点：（1）多样化的操作能力展示：通过演示视频可以看到，G1 人形机器人能够完成拧瓶盖倒水、叠三色积木、将摄像头放入包装盒、收集物品并存储、双臂抓取红色木块并将其放入黑色长方形容器中等复杂操作，显示出高度的灵活性和实用性。（2）数据采集方式创新：使用苹果的 Vision Pro 对 G1 进行遥操作控制。（3）丰富的数据维度：数据集中的图像分辨率为 640×480，每个手臂和灵巧手的状态及动作维度为 7。目前包含拧瓶盖倒水、叠三色积木、包装摄像头、存储物品、双臂抓取和放置等五大类操作的数据集。
+- [TACO-RL-长时域操作](https://www.kaggle.com/datasets/oiermees/taco-robot) - TACO - RL 使用的数据集是通过在模拟和真实环境中对机器人进行远程操作收集的，包含机器人与环境交互的状态 - 动作序列，用于训练分层策略以解决长时域机器人控制任务，支持机器人从无结构的游戏数据中学习通用技能并实现复杂任务的执行。收集的数据为无结构的游戏数据，未针对特定任务进行标记，包含多种机器人操作行为，如推动、抓取、放置物体，操作抽屉、滑动门和与 LED 按钮交互等，具有丰富的多样性和复杂性。数据集用于训练低层级策略，通过对无结构数据进行自动编码，学习从潜在计划到动作的映射，提取一系列基本行为原语。高层级策略通过离线强化学习（RL）利用后见之明重标记技术进行训练。
+- [CLVR-遥控](https://github.com/clvrai/clvr_jaco_play_dataset) - CLVR Jaco Play Dataset 是一个专注于遥控机器人领域的数据集，共 14.87 GB，由南加州大学和 KAIST 的研究团队发布，它提供了 1,085 个遥控机器人 Jaco2的片段，并配有相应的语言注释。
+- [FurnitureBench-长时域操作](https://clvrai.github.io/furniture-bench/docs/tutorials/dataset.html) - FurnitureBench是一个用于测试真实机器人复杂长时域操作任务的数据集。数据集聚焦于家具组装这一复杂长时域操作任务，其任务层次结构长，涉及家具部件的选择、抓取、移动、对齐和连接等步骤，平均任务时长在 60 - 230 秒（600 - 2300 低层级步骤）。任务要求机器人具备多种复杂技能，如精确抓取（不同家具部件抓取姿态各异）、部件重定向（通过拾取放置或推动实现）、路径规划（避免碰撞已组装部件）、插入和拧紧（精确对齐并重复操作）等。
+- [Cable Routing-多阶段电缆布线](https://sites.google.com/view/cablerouting/data) - 该数据集是为训练机器人的电缆布线策略而收集的，用于支持分层模仿学习系统，使机器人能够学习执行多阶段电缆布线任务，应对复杂的电缆操作挑战。数据集中包含了多种电缆形状、夹取位置和方向的变化，以及不同数量夹子（一夹、两夹、三夹）的布线任务数据，有助于训练出具有泛化能力的策略。
+- [RoboTurk-模仿学习](https://roboturk.stanford.edu/dataset_real.html) - ROBOTURK 数据集是通过众包平台收集的用于机器人学习任务的大规模数据集，旨在解决机器人模仿学习中数据收集困难的问题，使机器人能够从大量的人类演示中学习操作技能，应对复杂的操作任务。数据涵盖了不同用户在多种任务和操作条件下的演示，包括不同物体的操作（如 lifting 任务中的立方体、picking 任务中的各种物品、assembly 任务中的螺母等）以及不同的操作场景，有助于训练出具有泛化能力的机器人策略。
+
 
 
 ### Research Datasets  
