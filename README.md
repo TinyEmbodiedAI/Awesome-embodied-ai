@@ -67,16 +67,29 @@ Embodied AI represents a paradigm shift in artificial intelligence research, emp
 ## Software & Tools  
 
 ### Simulation Platforms  
-常见仿真器wiki:(https://simulately.wiki/)
+- 常见仿真器wiki:(https://simulately.wiki/)
+- MimicGen  paper:(https://arxiv.org/abs/2310.17596)  code:(https://github.com/NVlabs/mimicgen_environments)
+- RoboGen  paper:(https://arxiv.org/abs/2311.01455)  code:(https://github.com/Genesis-Embodied-AI/RoboGen)
+- 具身人工智能的模仿学习平台:(https://github.com/OpenGHz/Imitate-All)
 
 ### Development Frameworks  
 
 ### Libraries  
+- 具身智能相关视频：(https://space.bilibili.com/350563565)
+- 具身智能阅读仓库:(https://github.com/StarCycle/EmbodiedAI-Reading-List-For-Lists?tab=readme-ov-file)
+- Platform to simulate real world environments:(https://github.com/chengaopro/Awesome-EmbodiedAI)
+### Read Tools
+- [Citation2Prompt](https://github.com/StarCycle/Citation2Prompt)
+- [repo2txt](https://github.com/abinthomasonline/repo2txt)
+- [connectedpapers](https://www.connectedpapers.com/)
+- 具身智能生产工具：(https://github.com/LoopMind-AI/loopquest)
 
 ## Datasets
 
 ### Benchmark Datasets  
 - 具身智能常用benchmark：(https://zhuanlan.zhihu.com/p/695342864)
+- 相关数据集仓库：(https://github.com/mint-lab/awesome-robotics-datasets)
+- Embodied datasets built upon simulators (https://github.com/chengaopro/Awesome-EmbodiedAI)
 - [thanhqt2002/embodied-spatial-reasoning](https://hf-mirror.com/datasets/thanhqt2002/embodied-spatial-reasoning) - 发布时间：2024-06-02  数据集内容：该数据集是embodied-spatial-reasoning项目的一部分，旨在让代理主动探索环境以确定某些空间关系是否成立。任务涉及对各种对象和场景进行空间推理。每个任务包含一个关于场景内对象之间空间关系的查询，代理必须通过探索来验证。
 - [EgoPlan-Bench](https://chenyi99.github.io/ego_plan/) - 发布时间：2024-06-02  数据集内容：该数据集是embodied-spatial-reasoning项目的一部分，旨在让代理主动探索环境以确定某些空间关系是否成立。任务涉及对各种对象和场景进行空间推理。每个任务包含一个关于场景内对象之间空间关系的查询，代理必须通过探索来验证。
 - [byeonghwikim/hssd-hab](https://hf-mirror.com/datasets/byeonghwikim/hssd-hab) - 发布时间：2023-11-06  数据集内容：Habitat Synthetic Scenes Dataset（HSSD）是一个由人类作者创建的3D场景数据集，比之前的其他数据集更接近真实场景。该数据集包含211个多样化的场景和超过18000个真实世界对象的模型，支持Habitat 3.0的具身重排任务。
@@ -85,6 +98,15 @@ Embodied AI represents a paradigm shift in artificial intelligence research, emp
 - [AI2-THOR](https://opendatalab.org.cn/OpenDataLab/AI2-THOR) - 发布时间：2022-08-16  数据集内容：AI2-Thor 是具身人工智能的交互式环境。它包含厨房、客厅、卧室和浴室四种场景，每个场景包括30个房间，每个房间在家具摆放和物品类型上都是独一无二的。有超过 2000 个独特的对象可供 AI 代理与之交互。
 - [BEHAVIOR](https://www.selectdataset.com/dataset/020e26cafd8c53ef1c234d0d60131f0e) - 发布时间：2021-08-07  数据集内容：一个包含100种日常家庭活动（如清洁、维护和食物准备）的具身AI基准，旨在重现代理在现实世界中必须面对的挑战。
 - [Human3.6M](https://www.selectdataset.com/dataset/553d12722f536fc5718ad878a2095c9e) - 发布时间：2014-05-01  数据集内容：Human3.6M是一个大规模的人体运动数据集，包含360万帧高质量的3D人体姿势数据。该数据集由11名专业演员在受控环境中表演15种日常活动，如走路、坐下、站立等。数据集还包括2D和3D的骨骼关节位置、深度图像和视频序列。
+- Grasp Datasets
+- [QDGset: A Large Scale Grasping Dataset Generated with Quality-Diversity] paper:(https://arxiv.org/abs/2410.02319)
+- [Real-to-Sim Grasp: Rethinking the Gap between Simulation and Real World in Grasp Detection] paper:(https://arxiv.org/abs/2410.06521)  code:(https://isee-laboratory.github.io/R2SGrasp/)
+- [Language-Driven 6-DoF Grasp Detection Using Negative Prompt Guidance]paper:(https://arxiv.org/abs/2407.13842)  code:(https://github.com/Fsoft-AIC/Language-Driven-6-DoF-Grasp-Detection-Using-Negative-Prompt-Guidance)
+- [Language-driven Grasp Detection] paper:(https://arxiv.org/abs/2406.09489)  code:(https://github.com/Fsoft-AIC/LGD)
+- [Grasp-Anything: Large-scale Grasp Dataset from Foundation Models] paper:(https://arxiv.org/abs/2309.09818) code:(https://github.com/Fsoft-AIC/Grasp-Anything)
+- [GraspNet-1Billion: A Large-Scale Benchmark for General Object Grasping] paper:(https://openaccess.thecvf.com/content_CVPR_2020/papers/Fang_GraspNet-1Billion_A_Large-Scale_Benchmark_for_General_Object_Grasping_CVPR_2020_paper.pdf) code:(https://github.com/graspnet/graspnet-baseline)
+- Manipulation Benchmarks (https://github.com/BaiShuanghao/Awesome-Robotics-Manipulation?tab=readme-ov-file#grasp-datasets)
+- Cross-Embodiment Benchmarks (https://github.com/BaiShuanghao/Awesome-Robotics-Manipulation?tab=readme-ov-file#grasp-datasets)
 
 ### Research Datasets  
 - [Ramakrishnan, Santhosh K., et al. "Habitat-matterport 3d dataset (hm3d): 1000 large-scale 3d environments for embodied ai." arXiv preprint arXiv:2109.08238 (2021).](https://arxiv.org/pdf/2109.08238) - Description  
