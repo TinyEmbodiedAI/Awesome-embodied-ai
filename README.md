@@ -107,7 +107,7 @@ Embodied AI represents a paradigm shift in artificial intelligence research, emp
 
 ### Research Projects  
 - [ProAgent: From Robotic Process Automation to Agentic Process Automation](https://github.com/OpenBMB/ProAgent) - Tsinghua University, this paper introduces (APA), a groundbreaking automation paradigm using LLM-based agents for advanced automation by offloading the human labor to agents associated with construction and execution.
-- [OpenButler](https://zhuanlan.zhihu.com/p/684845130) - BTH Group, 本项目是由BTH Group研究团队（http://www.BTHGroup.org）开源的一个轻量化具身智能项目。项目采用斯坦福开源的ACT模仿学习技术作为核心，面向实物样机部署对其软硬件接口统一封装，并结合数字虚拟机器人可以实现示教数据采集与对神经网络的快速验证，本框架可以脱离实物样机进行开发，同时采用了ROS标准数据接口可快速部署至任意的机器人系统中。
+- [OpenButler](https://zhuanlan.zhihu.com/p/684845130) - BTH Group, 本项目是由BTH Group研究团队开源的一个轻量化具身智能项目。项目采用斯坦福开源的ACT模仿学习技术作为核心，面向实物样机部署对其软硬件接口统一封装，并结合数字虚拟机器人可以实现示教数据采集与对神经网络的快速验证，本框架可以脱离实物样机进行开发，同时采用了ROS标准数据接口可快速部署至任意的机器人系统中。
 
 ### Demo Applications  
 - [Do As I Can, Not As I Say: Grounding Language in Robotic Affordances](https://github.com/google-research/google-research/tree/master/saycan) - 本文主要提出了一种将语言模型转化为机器指令的方法，大规模语言模型的能力可以帮助分解语义从而得到足够的可能，然后通过强化学习训练一个价值函数来判断可能的价值，最终指导机器人去找到海绵、拿起海绵、找到你、放下海绵、结束。
