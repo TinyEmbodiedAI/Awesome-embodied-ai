@@ -67,6 +67,7 @@ Embodied AI represents a paradigm shift in artificial intelligence research, emp
 ## Software & Tools  
 
 ### Simulation Platforms  
+常见仿真器wiki:(https://simulately.wiki/)
 
 ### Development Frameworks  
 
@@ -75,7 +76,15 @@ Embodied AI represents a paradigm shift in artificial intelligence research, emp
 ## Datasets
 
 ### Benchmark Datasets  
-
+- 具身智能常用benchmark：(https://zhuanlan.zhihu.com/p/695342864)
+- [thanhqt2002/embodied-spatial-reasoning](https://hf-mirror.com/datasets/thanhqt2002/embodied-spatial-reasoning) - 发布时间：2024-06-02  数据集内容：该数据集是embodied-spatial-reasoning项目的一部分，旨在让代理主动探索环境以确定某些空间关系是否成立。任务涉及对各种对象和场景进行空间推理。每个任务包含一个关于场景内对象之间空间关系的查询，代理必须通过探索来验证。
+- [EgoPlan-Bench](https://chenyi99.github.io/ego_plan/) - 发布时间：2024-06-02  数据集内容：该数据集是embodied-spatial-reasoning项目的一部分，旨在让代理主动探索环境以确定某些空间关系是否成立。任务涉及对各种对象和场景进行空间推理。每个任务包含一个关于场景内对象之间空间关系的查询，代理必须通过探索来验证。
+- [byeonghwikim/hssd-hab](https://hf-mirror.com/datasets/byeonghwikim/hssd-hab) - 发布时间：2023-11-06  数据集内容：Habitat Synthetic Scenes Dataset（HSSD）是一个由人类作者创建的3D场景数据集，比之前的其他数据集更接近真实场景。该数据集包含211个多样化的场景和超过18000个真实世界对象的模型，支持Habitat 3.0的具身重排任务。
+- [具身智能商超交互式合成数据集](https://www.selectdataset.com/dataset/e3a74b23a0836eac3d31ac356d28c78c) - 发布时间：2023-09-03  数据集内容：涉及物体检测（2D/3D）、分割、姿态估计、机器人视觉SLAM、占用网络多个任务数据规模：20个商超布局，300种可交互的中国资产品类。
+- [Habitat-Matterport 3D Semantics (HM3DSEM)](https://www.selectdataset.com/dataset/2161fde4172f1184ebe41baf9c456a2d) - 发布时间：2022-10-12  数据集内容：HM3DSEM数据集是由Meta AI等机构创建的，是目前学术界可用的最大3D真实世界空间密集语义标注数据集。该数据集包含216个高分辨率3D扫描场景，覆盖3100个房间，总计142,646个对象实例标注。数据集的创建过程涉及大量人工标注和验证，总计超过14,200小时。HM3DSEM数据集主要用于提升下游具身AI任务的性能，特别是在Object Goal Navigation任务中，通过不同学习方法训练的策略在跨数据集泛化性能上均有显著提升。
+- [AI2-THOR](https://opendatalab.org.cn/OpenDataLab/AI2-THOR) - 发布时间：2022-08-16  数据集内容：AI2-Thor 是具身人工智能的交互式环境。它包含厨房、客厅、卧室和浴室四种场景，每个场景包括30个房间，每个房间在家具摆放和物品类型上都是独一无二的。有超过 2000 个独特的对象可供 AI 代理与之交互。
+- [BEHAVIOR](https://www.selectdataset.com/dataset/020e26cafd8c53ef1c234d0d60131f0e) - 发布时间：2021-08-07  数据集内容：一个包含100种日常家庭活动（如清洁、维护和食物准备）的具身AI基准，旨在重现代理在现实世界中必须面对的挑战。
+- [Human3.6M](https://www.selectdataset.com/dataset/553d12722f536fc5718ad878a2095c9e) - 发布时间：2014-05-01  数据集内容：Human3.6M是一个大规模的人体运动数据集，包含360万帧高质量的3D人体姿势数据。该数据集由11名专业演员在受控环境中表演15种日常活动，如走路、坐下、站立等。数据集还包括2D和3D的骨骼关节位置、深度图像和视频序列。
 
 ### Research Datasets  
 - [Ramakrishnan, Santhosh K., et al. "Habitat-matterport 3d dataset (hm3d): 1000 large-scale 3d environments for embodied ai." arXiv preprint arXiv:2109.08238 (2021).](https://arxiv.org/pdf/2109.08238) - Description  
