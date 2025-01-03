@@ -68,6 +68,14 @@ Embodied AI represents a paradigm shift in artificial intelligence research, emp
 
 ### Simulation Platforms  
 
+### Development Frameworks  
+
+### Libraries  
+
+## Datasets
+
+### Benchmark Datasets  
+
 
 ### Research Datasets  
 - [Ramakrishnan, Santhosh K., et al. "Habitat-matterport 3d dataset (hm3d): 1000 large-scale 3d environments for embodied ai." arXiv preprint arXiv:2109.08238 (2021).](https://arxiv.org/pdf/2109.08238) - Description  
